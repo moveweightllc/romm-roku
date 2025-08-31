@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="PlatformsScene" extends="Scene" initialFocus="grid">
+  <script type="text/brightscript" uri="pkg:/components/PlatformsScene.brs" />
+  <children>
+    <Label translation="[100,50]" text="Platforms" font="font:MediumBoldSystemFont" />
+    <PosterGrid id="grid" translation="[100,150]" numColumns="4" itemSize="[200,300]" itemSpacing="[20,20]" focusBitmapUri="pkg:/images/focus.png" />
+  </children>
+</component>

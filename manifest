@@ -1,0 +1,11 @@
+title=RomM Viewer
+subtitle=Companion for RomM Servers
+major_version=1
+minor_version=0
+build_version=00001
+icon_focus_url=pkg:/images/icon_focus.png
+icon_url=pkg:/images/icon.png
+splash_screen_fhd=pkg:/images/splash_fhd.png
+ui_resolutions=fhd
+bs_consts=use_scenegraph=true
+package_type=squashfs_zstd

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="EmulatorScene" extends="Scene">
+  <script type="text/brightscript" uri="pkg:/components/EmulatorScene.brs" />
+  <interface>
+    <field id="rom" type="assocarray" />
+  </interface>
+</component>

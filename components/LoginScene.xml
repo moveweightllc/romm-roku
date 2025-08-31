@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="LoginScene" extends="Scene" initialFocus="serverButton">
+  <script type="text/brightscript" uri="pkg:/components/LoginScene.brs" />
+  <children>
+    <Label id="titleLabel" translation="[100,100]" text="RomM Viewer Login" font="font:MediumBoldSystemFont" />
+    <Button id="serverButton" translation="[100,200]" text="Set Server URL" width="400" height="50" />
+    <Label id="serverLabel" translation="[520,200]" text="https://romm.moveweight.com" />
+    <Button id="userButton" translation="[100,270]" text="Set Username" width="400" height="50" />
+    <Label id="userLabel" translation="[520,270]" text="Not set" />
+    <Button id="passButton" translation="[100,340]" text="Set Password" width="400" height="50" />
+    <Label id="passLabel" translation="[520,340]" text="Not set" />
+    <Button id="loginButton" translation="[100,410]" text="Login" width="400" height="50" />
+  </children>
+</component>
